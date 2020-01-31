@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block main %}
+<h3>id: {{ id }}</h3>
+<h3>order_id: {{ order_id }}</h3>
+<h3>status: {{ status }}</h3>
+<h3>price_amount: {{ price_amount }}</h3>
+<h3>price_currency: {{ price_currency }}</h3>
+<h3>receive_currency: {{ receive_currency }}</h3>
+<h3>receive_amount: {{ receive_amount }}</h3>
+<h3>pay_amount: {{ pay_amount }}</h3>
+<h3>pay_currency: {{ pay_currency }}</h3>
+<h3>underpaid_amount: {{ underpaid_amount }}</h3>
+<h3>overpaid_amount: {{ overpaid_amount }}</h3>
+<h3>is_refundable: {{ is_refundable }}</h3>
+<h3>created_at: {{ created_at }}</h3>
+<h3>token: {{ token }}</h3>
+{% endblock %}

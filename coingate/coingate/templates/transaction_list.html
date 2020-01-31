@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<h1>Transaction list</h1>
+
+{% for transaction in object_list %}
+<h3>Id: {{ transaction.purchase_id }}| Value: {{ transaction.value }}| Date: {{ transaction.date }}| Status: {{ transaction.status }}</h3>
+{% endfor %}
+{% endblock %}
