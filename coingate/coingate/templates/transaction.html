@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<h1> 1BTC = {{ btc }}USD</h1><br>
+<form method="POST" action="{% url 'transaction' %}">{% csrf_token %}
+  How many points?:<br>
+  {{ form.as_table }}
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}  
