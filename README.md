@@ -40,7 +40,4 @@ to
 ```
 url = 'https://api.coingate.com/v2/orders'     #   
 ```
-<<<<<<< HEAD
-=======
 
->>>>>>> 8e47d441733eb1161666a9e48425de6bb5e92bfc
